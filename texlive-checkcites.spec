@@ -1,4 +1,4 @@
-# revision 26313
+# revision 25678
 # category Package
 # catalog-ctan /support/checkcites
 # catalog-date 2012-03-17 17:05:04 +0100
@@ -6,7 +6,7 @@
 # catalog-version 1.0h
 Name:		texlive-checkcites
 Version:	1.0h
-Release:	2
+Release:	1
 Summary:	Check citation commands in a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/checkcites
@@ -53,3 +53,11 @@ pushd %{buildroot}%{_bindir}
 popd
 mkdir -p %{buildroot}%{_datadir}
 cp -fpar texmf-dist %{buildroot}%{_datadir}
+
+
+%changelog
+* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0h-1
++ Revision: 787574
+- Import texlive-checkcites
+- Import texlive-checkcites
+
