@@ -6,7 +6,7 @@
 # catalog-version 1.0i
 Name:		texlive-checkcites
 Version:	2.0
-Release:	1
+Release:	2
 Summary:	Check citation commands in a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/checkcites
