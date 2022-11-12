@@ -5,8 +5,8 @@ Summary:	Check citation commands in a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/checkcites
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/checkcites.r64155.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/checkcites.doc.r64155.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/checkcites.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/checkcites.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
