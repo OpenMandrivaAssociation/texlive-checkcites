@@ -1,6 +1,6 @@
 Name:		texlive-checkcites
-Version:	64155
-Release:	2
+Version:	67201
+Release:	1
 Summary:	Check citation commands in a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/checkcites
