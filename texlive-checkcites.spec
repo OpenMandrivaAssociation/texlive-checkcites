@@ -3,7 +3,7 @@ Version:	70398
 Release:	1
 Summary:	Check citation commands in a document
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/support/checkcites
+URL:		https://www.ctan.org/tex-archive/support/checkcites
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/checkcites.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/checkcites.doc.r%{version}.tar.xz
