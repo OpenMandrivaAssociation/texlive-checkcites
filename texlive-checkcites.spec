@@ -1,5 +1,5 @@
 Name:		texlive-checkcites
-Version:	70398
+Version:	73120
 Release:	1
 Summary:	Check citation commands in a document
 Group:		Publishing
