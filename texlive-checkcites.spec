@@ -13,8 +13,6 @@ Source0:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/checkcites.r%{tl
 Source1:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/checkcites.doc.r%{tl_revision}.tar.xz
 BuildArch:	noarch
 BuildSystem:	texlive
-BuildRequires:	texlive-tlpkg
-%texlive_base_requires
 Requires:	texlive(checkcites.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
 
