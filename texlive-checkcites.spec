@@ -1,5 +1,6 @@
 %global tl_name checkcites
 %global tl_revision 79618
+%global tl_bin_links checkcites:%{_texmfdistdir}/scripts/checkcites/checkcites.lua
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -15,6 +16,8 @@ BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(checkcites.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 The package provides a lua script written for the sole purpose of
